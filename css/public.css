@@ -1,0 +1,377 @@
+*{
+    padding:0;
+    margin:0
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+/* 头部区域 */
+header{
+    width:100%;
+    height:40px;
+    background:#f9f9f9;
+    line-height:40px;
+}
+header .content{
+    width:1220px;
+    height:100%;
+    /* background:skyblue; */
+    margin:0 auto;
+}
+header .content .left{
+    float:left;
+}
+header .content .left ul li{
+    float:left;
+    padding:0 8px;
+    position:relative;
+}
+header .content .left ul li{
+    font-size:14px;
+}
+header .content .left ul li a{
+    color:#a4a4a4;
+}
+header .content .left ul li:hover a{
+    color:#cb242b;
+}
+header .content .left ul li:hover .hide dl dt a{
+    color:#a4a4a4;
+}
+header .content .left ul li .hide dl dt a:hover{
+    color:#cb242b;
+}
+header .content .left li:before{
+    content:"";
+    display:block;
+    height:10px;
+    width:1px;
+    background:#d3d3d3;
+    position:absolute;
+    top:15px;
+    left:0;
+}
+header .content .left li:first-child:before{
+    display:none;
+}
+header .content .left .none{
+    padding-left:0;
+}
+header .content .left li .hide{
+    display:none;
+}
+header .content .left .con:hover{
+    background:#fff;
+}
+header .content .left .con:hover .hide{
+    display:block;
+}
+header .content .left .con{
+    padding-right:20px;
+    position:relative;
+}
+header .content .left .con .hide{
+    position:absolute;
+    width:119px;
+    height:146px;
+    padding: 6px 0 12px 0;
+    text-align:center;
+    line-height:32px;
+    right:0;
+    top:40px;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+}
+header .content .left .con .first a:before{
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-top:4px solid #777;
+    position:absolute;
+    right:5px;
+    top:18px;
+}
+
+
+
+
+
+header .content .right{
+    float:right;
+}
+header .content .right li{
+    float:left;
+    position:relative;
+    padding:0 8px;
+}
+header .content .right .last{
+    padding-right:0px;
+    padding-left:30px;
+    position:relative;
+}
+header .content .right .last:after{
+    position:absolute;
+    content:"";
+    width:14px;
+    height:14px;
+    display:block;
+    left:10px;
+    top:12px;
+    background:url(../images/icon.png) no-repeat -1px -1px;
+}
+
+header .content .right li a{
+    color:#a4a4a4;
+    font-size:14px;
+}
+header .content .right .xian:before{
+    content:"";
+    display:block;
+    width:1px;
+    height:10px;
+    position:absolute;
+    right:77px;
+    top:17px;
+    background:#d3d3d3;
+}
+header .content .right .xian,header .content .right .spcial{
+    padding-right:15px;
+}
+header .content .right .special:before{
+    content:"";
+    display:block;
+    width:1px;
+    height:10px;
+    position:absolute;
+    right:63px;
+    top:17px;
+    background:#d3d3d3;
+}
+header .content .right .sanjiao:after{
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-bottom:4px solie transparent;
+    border-top:4px solid #777;
+    position:absolute;
+    right:3px;
+    top:18px;
+}
+header .content .right .special:after{
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-bottom:4px solie transparent;
+    border-top:4px solid #777;
+    position:absolute;
+    right:5px;
+    top:18px;
+}
+header .content .right li a:hover{
+    color:#cb242b;
+}
+header .content .right .bottom{
+    display:none;
+}
+header .content .right .xian:hover .bottom{
+    display:block;
+    width:79px;
+    text-align:center;
+    left:0;
+    font-size:14px;
+    color:#d3d3d3;
+    position:absolute;
+    z-index:1000;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 0 0 8px 8px;
+}
+header .content .right .sanjiao:hover{
+    background:#fff;
+    position:relative;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+}
+header .content .right .sanjiao:hover .bottom{
+    background:#fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+}
+header .content .right .xian:hover .down{
+    position:absolute;
+    z-index:1000;
+    display:block;
+    left:-814px;
+    width:893px;
+    /* height:162px; */
+    line-height:20px;
+    color:#777;
+    background:#fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+}
+header .content .right .xian:hover .down p{
+    height:20px;
+}
+header .content .right .xian:hover .down .icon{
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin: 37px 46px 0 49px;
+    color: #777;
+    font-size:14px;
+    position:relative;
+}
+header .content .right .xian:hover .down .icon::before{
+    content:"";
+    display:block;
+    height:50px;
+    width: 50px;
+    background:url(../images/icon.png) no-repeat -40px 0px;
+    margin-bottom:3px;
+    border-radius:50%;
+}
+header .content .right .xian:hover .down a:hover{
+    color:#cb242b;
+}
+header .content .right .xian:hover .down .icon a:hover{
+    color:#cb242b;
+}
+header .content .right .xian:hover .down .icon a{
+    color:#a4a4a4;
+    font-size:12px;
+    width:48px;
+}
+header .content .right .xian:hover .down  dl{
+    float:left;
+    text-align:left;
+    width: 185px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+header .content .right .xian:hover .down dt{
+    margin-bottom:8px;
+}
+header .content .right .xian:hover .down dt a{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+header .content .right .xian:hover .down dd{
+    float:left;
+}
+header .content .right .xian:hover .down dd div{
+    float: left;
+    width: 80px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+header .content .right .xian:hover .down dd div a{
+    color:#777;
+    font-size:12px;
+}
+header .content .right .special{
+    position:relative;
+    padding-right:18px;
+}
+header .content .right .special:hover{
+    background:#fff;
+}
+header .content .right .special:hover .bottom{
+    display:block;
+    width:244px;
+    height:392px;
+    position:absolute;
+    z-index:1000;
+    left:-175px;
+    top:40px;
+    padding-top:16px;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    background:#fff;
+}
+header .content .right .special:hover .bottom img{
+    float:left;
+    width:90px;
+    height:90px;
+    margin-right:12px;
+}
+header .content .right .special:hover .bottom .one{
+    height:111px;
+    padding-left:24px;
+    /* background:red; */
+}
+header .content .right .special:hover .bottom .one div{
+    float:left;
+}
+header .content .right .special:hover .bottom .one div h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+header .content .right .special:hover .bottom .one div p{
+    color: #cb242b!important;
+    line-height: 16px;
+    font-size:14px;
+}
+header .content .right .special:hover .bottom .one div span{
+    display:block;
+    height:32px;
+    width:32px;
+    background:url(../images/icon.png) no-repeat -883px -352px;
+}
+header .content .right .special:hover .bottom .two div span{
+    display:block;
+    height:32px;
+    width:32px;
+    background:url(../images/icon.png) no-repeat -917px -352px;
+}
+header .content .right .last .shopcar{
+    display:none;
+    position:relative;
+}
+header .content .right .last:hover{
+    background:#fff;
+}
+header .content .right .last:hover .shopcar{
+    display:block;
+    position:absolute;
+    z-index:1000;
+    width:460px;
+    height:230px;
+    background:#fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    left:-370px;
+    top:40px;
+}
+header .content .right .last:hover .shopcar div{
+    padding:50px 0;
+}
+header .content .right .last:hover .shopcar span{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    /* background:red; */
+    background:url(../images/icon.png) no-repeat 0px -166px;
+    margin: 0 auto;
+}
+header .content .right .last:hover .shopcar p{
+    font-size:14px;
+    color: #a4a4a4;
+    text-align:center;
+    height:14px;
+    line-height:14px;
+    margin-bottom:50px;
+}
