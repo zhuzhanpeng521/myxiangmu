@@ -1,0 +1,1370 @@
+@charset "UTF-8";
+.baidian {
+  background: #fff;
+}
+
+.main .bottom .right ul li.current {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+  transform: none;
+}
+
+/* 给鼠标悬浮有盒子阴影的img添加一个类.img  就可以在js中动态 */
+.current {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+  transform: none;
+}
+
+/* 导航区域 */
+#nav {
+  height: 41px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+#nav .box {
+  width: 1200px;
+  height: 41px;
+  margin: 0 auto;
+}
+#nav .box .left {
+  width: 779px;
+  height: 41px;
+  float: left;
+}
+#nav .box .left .icon {
+  width: 205px;
+  margin-right: 34px;
+}
+#nav .box .left .icon img {
+  width: 205px;
+  height: 36px;
+  float: left;
+}
+#nav .box .left .list {
+  width: 540px;
+  height: 40px;
+  float: right;
+}
+#nav .box .left .list ul .pic {
+  float: left;
+  width: 74px;
+  height: 24px;
+  margin-top: 7px;
+  margin-right: 23px;
+}
+#nav .box .left .list ul .pic img {
+  width: 74px;
+  height: 24px;
+}
+#nav .box .left .list ul .li {
+  float: left;
+  margin-right: 23px;
+}
+#nav .box .left .list ul .li a {
+  color: #333;
+  line-height: 40px;
+  font-size: 16px;
+}
+#nav .box .left .list ul .li:hover {
+  border-bottom: 2px solid #ca141d;
+}
+#nav .box .left .list ul .li:hover a {
+  color: #ca141d;
+}
+#nav .box .right {
+  width: 322px;
+  height: 37px;
+  float: right;
+  margin-top: 5px;
+  position: relative;
+}
+#nav .box .right .xia {
+  width: 322px;
+  height: 32px;
+  margin-top: 5px;
+  position: relative;
+}
+#nav .box .right .xia .txt {
+  border: 0;
+  color: #3a3a3a;
+  width: 290px;
+  text-indent: 15px;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 30px;
+  background: #f5f5f5;
+  border-radius: 15px;
+  float: left;
+}
+#nav .box .right .xia #sub {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+  right: 1px;
+  top: 0;
+  background-position: 0 -21px;
+  background: #666 url(../images/icon.png) no-repeat 1px -21px;
+}
+#nav .box .right .shang {
+  position: absolute;
+  z-index: 100;
+  top: 8px;
+  right: 30px;
+}
+#nav .box .right .shang a {
+  color: #999;
+  font-size: 12px;
+  margin-right: 14px;
+}
+#nav .box .right .shang a:hover {
+  color: #333;
+}
+
+/* 登录注册 */
+#box {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+#box .zuo {
+  position: absolute;
+  z-index: 20;
+  top: 20px;
+  left: 350px;
+  background: #f9f9f9;
+  width: 200px;
+  height: 450px;
+  color: #3a3a3a;
+  border-radius: 10px;
+}
+#box .zuo li {
+  padding-left: 24px;
+  height: 58px;
+  padding-top: 10px;
+  padding-right: 24px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #efefef;
+}
+#box .zuo li:hover {
+  background: #fff;
+}
+#box .zuo li div {
+  font-size: 17px;
+  color: #a6a6a6;
+  margin-bottom: 6px;
+}
+#box .zuo li div:hover {
+  color: #ca141d;
+}
+#box .zuo li a {
+  font-size: 14px;
+  color: #a6a6a6;
+}
+#box .zuo li a:hover {
+  color: #ca141d;
+}
+#box .zuo li:last-child {
+  border-bottom: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+#box .zuo li:first-child {
+  border-radius: 10px 10px 0 0;
+}
+#box .baner {
+  position: relative;
+}
+#box .baner li {
+  position: absolute;
+}
+#box .baner li img {
+  display: block;
+}
+#box .baner .jiantou .left {
+  position: absolute;
+  z-index: 6;
+  top: 210px;
+  left: 570px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: url(../images/icon.png) no-repeat -350px 0px;
+}
+#box .baner .jiantou .left:hover {
+  background: url(../images/icon.png) no-repeat -270px 0px;
+}
+#box .baner .jiantou .right {
+  position: absolute;
+  z-index: 6;
+  top: 210px;
+  left: 1510px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: url(../images/icon.png) -110px 0px;
+}
+#box .baner .jiantou .right:hover {
+  background: url(../images/icon.png) -190px 0px;
+}
+#box .baner .dian {
+  position: absolute;
+  z-index: 10;
+  width: 110px;
+  height: 12px;
+  top: 455px;
+  left: 1445px;
+}
+#box .baner .dian span {
+  display: block;
+  float: left;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-left: 7px;
+  border: 1px solid #fff;
+}
+#box .bottom {
+  position: absolute;
+  width: 1200px;
+  height: 88px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 26px rgba(0, 0, 0, 0.07);
+  z-index: 20;
+  left: 350px;
+  top: 490px;
+}
+#box .bottom .one {
+  width: 240px;
+  height: 52px;
+  float: left;
+  margin-left: 28px;
+  margin-top: 20px;
+  border-right: 1px solid #ededed;
+}
+#box .bottom .one .left {
+  float: left;
+}
+#box .bottom .one .left img {
+  display: block;
+  width: 52px;
+  height: 52px;
+}
+#box .bottom .one .right {
+  margin-left: 16px;
+  width: 148px;
+  float: left;
+  font-size: 14px;
+}
+#box .bottom .one .right .shang {
+  margin-bottom: 10px;
+}
+#box .bottom .one .right .shang span {
+  color: #999;
+}
+#box .bottom .one .right .shang a {
+  color: #333;
+}
+#box .bottom .one .right .shang a:hover {
+  color: #ca141d;
+}
+#box .bottom .one .right .shang .shuxian {
+  color: #333;
+}
+#box .bottom .one .right .xia .fuli {
+  width: 66px;
+  height: 20px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #e47b7f;
+  color: #de5b60;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+#box .bottom .one .right .xia .fuli:hover {
+  background: #de5b60;
+}
+#box .bottom .one .right .xia .huiyuan {
+  display: inline-block;
+  width: 68px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  background: #595454;
+  color: #fde4b3;
+  border-radius: 5px;
+  font-size: 13px;
+}
+#box .bottom .one .right .xia .huiyuan:hover {
+  background: #333;
+}
+#box .bottom .two {
+  height: 88px;
+  width: 660px;
+  float: left;
+  border-right: 1px solid #ededed;
+}
+#box .bottom .two li {
+  float: left;
+  margin-top: 20px;
+  margin-left: 38px;
+  text-align: center;
+}
+#box .bottom .two li div {
+  height: 40px;
+  width: 40px;
+  margin: 0 auto;
+  background: blue;
+}
+#box .bottom .two li a {
+  color: #777;
+  font-size: 14px;
+}
+#box .bottom .two li a:hover {
+  color: #ca141d;
+}
+#box .bottom .two li .q1 {
+  background: url(../images/xiaotubiao.png) no-repeat 0 0;
+}
+#box .bottom .two li .q2 {
+  background: url(../images/xiaotubiao.png) no-repeat -40px 0;
+}
+#box .bottom .two li .q3 {
+  background: url(../images/xiaotubiao.png) no-repeat -80px 0;
+}
+#box .bottom .two li .q4 {
+  background: url(../images/xiaotubiao.png) no-repeat -120px 0;
+}
+#box .bottom .two li .q5 {
+  background: url(../images/xiaotubiao.png) no-repeat -160px 0;
+}
+#box .bottom .two li .q6 {
+  background: url(../images/xiaotubiao.png) no-repeat -200px 0;
+}
+#box .bottom .three {
+  height: 88px;
+  width: 268px;
+  float: left;
+}
+#box .bottom .three .shang {
+  position: relative;
+  width: 266px;
+  height: 44px;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+#box .bottom .three .shang span {
+  color: #777;
+  font-size: 12px;
+  font-weight: 600;
+  float: left;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+#box .bottom .three .shang ul {
+  float: left;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+#box .bottom .three .shang ul li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 190px;
+  height: 44px;
+  line-height: 35px;
+  font-size: 12px;
+}
+#box .bottom .three .shang ul li a {
+  color: #6f6f6f;
+}
+#box .bottom .three .shang ul li a:hover {
+  color: #ca141d;
+}
+#box .bottom .three .xia div {
+  float: left;
+  width: 89px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  position: relative;
+}
+#box .bottom .three .xia div a {
+  font-size: 12px;
+  color: #6f6f6f;
+  position: absolute;
+  margin-left: -5px;
+}
+#box .bottom .three .xia div a:hover {
+  color: #ca141d;
+}
+#box .bottom .three .xia div span {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+#box .bottom .three .xia div .s1 {
+  background: url(../images/xiaotubiao.png) no-repeat -242px -3px;
+}
+#box .bottom .three .xia div .s2 {
+  background: url(../images/xiaotubiao.png) no-repeat -263px -3px;
+}
+#box .bottom .three .xia div .s3 {
+  background: url(../images/xiaotubiao.png) no-repeat -284px -3px;
+}
+
+/*main 区域  */
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* list */
+  /* 热销单品 */
+  /*  精品推荐 */
+}
+.main .list {
+  height: 200px;
+  width: 1200px;
+}
+.main .list ul li {
+  width: 290px;
+  height: 200px;
+  float: left;
+  margin-right: 13px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  transition: all .2s linear 0s;
+}
+.main .list ul li img {
+  width: 290px;
+  height: 200px;
+  border-radius: 10px;
+}
+.main .list ul .none {
+  margin-right: 0;
+}
+.main .top {
+  height: 66px;
+  margin-top: 10px;
+  width: 100%;
+}
+.main .top h2 {
+  font-size: 26px;
+  color: #333;
+  padding: 27px 0 13px 0;
+  font-weight: normal;
+}
+.main .bottom {
+  width: 100%;
+  height: 604px;
+}
+.main .bottom .left {
+  width: 232px;
+  height: 604px;
+  float: left;
+}
+.main .bottom .left img {
+  border-radius: 10px;
+}
+.main .bottom .right {
+  width: 968px;
+  height: 604px;
+  float: left;
+}
+.main .bottom .right ul li {
+  background: #f9f9f9;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  width: 230px;
+  height: 290px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+.main .bottom .right ul li img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 35px auto 0;
+}
+.main .bottom .right ul li em {
+  font-style: normal;
+  position: absolute;
+  left: 90px;
+  top: 0px;
+  width: 24px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #fff;
+  padding-left: 9px;
+  padding-right: 9px;
+  background: yellow;
+  border-radius: 0 0 6px 6px;
+}
+.main .bottom .right ul li .hong {
+  background: #FF6A6F;
+}
+.main .bottom .right ul li .lan {
+  background: #68BEFF;
+}
+.main .bottom .right ul li .xinghao {
+  width: 210px;
+  margin: 0 auto;
+  margin-top: 12px;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 14px;
+}
+.main .bottom .right ul li .p1 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  text-align: center;
+  font-size: 12px;
+}
+.main .bottom .right ul li .p2 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.main .tuijian {
+  width: 100%;
+  height: 364px;
+  position: relative;
+}
+.main .tuijian .shang {
+  width: 100%;
+  height: 53px;
+}
+.main .tuijian .shang h2 {
+  font-size: 26px;
+  color: #333;
+  padding: 20px 0 0 0;
+  font-weight: normal;
+}
+.main .tuijian .xia {
+  width: 1200px;
+  height: 311px;
+  margin-top: 10px;
+}
+.main .tuijian .xia li {
+  width: 230px;
+  height: 295px;
+  float: left;
+  margin-bottom: 10px;
+  margin: 0 5px;
+}
+.main .tuijian .xia li a {
+  display: block;
+  width: 230px;
+  height: 241px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.main .tuijian .xia li a div {
+  display: block;
+  width: 230px;
+  height: 22px;
+}
+.main .tuijian .xia li a div .lan {
+  background: #68BEFf;
+  border-radius: 0 0 6px 6px;
+}
+.main .tuijian .xia li a div .hong {
+  background: #FF6A6E;
+  border-radius: 0 0 6px 6px;
+}
+.main .tuijian .xia li a div em {
+  width: 42px;
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+.main .tuijian .xia li a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.main .tuijian .xia li a .p1 {
+  height: 36px;
+  color: #777;
+  background: #f3f3f3;
+  font-size: 14px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 16px;
+  border-radius: 0 0 10px 10px;
+}
+.main .tuijian .xia li .p2 {
+  height: 36px;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  line-height: 36px;
+}
+.main .tuijian .xia li .p3 {
+  height: 18px;
+  color: #d0021b;
+  text-align: center;
+}
+.main .tuijian .zjt {
+  position: absolute;
+  width: 36px;
+  height: 72px;
+  background: rgba(204, 204, 204, 0.9);
+  left: 5px;
+  top: 165px;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  line-height: 72px;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: .7;
+}
+.main .tuijian .yjt {
+  position: absolute;
+  width: 36px;
+  height: 72px;
+  background: rgba(204, 204, 204, 0.9);
+  right: 5px;
+  top: 165px;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  line-height: 72px;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: .7;
+}
+
+/* 中间轮播区 */
+#lunbo {
+  width: 1200px;
+  height: 120px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 27px;
+  margin-bottom: 13px;
+  position: relative;
+}
+#lunbo ul {
+  position: relative;
+}
+#lunbo ul li {
+  position: absolute;
+}
+#lunbo ul li img {
+  display: block;
+  border-radius: 10px;
+}
+#lunbo ol {
+  width: 205px;
+  height: 13px;
+  position: absolute;
+  z-index: 10;
+  right: 0px;
+  bottom: 10px;
+}
+#lunbo ol li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid  #fff;
+  float: left;
+  margin: 0 5px;
+}
+
+/* 楼梯区域 */
+.louti {
+  width: 1200px;
+  height: 9460px;
+  margin: 0 auto;
+  margin-top: 27px;
+  /* 手机区域 */
+  /* 笔记本区域 */
+  /* 平板区域 */
+  /* 智能穿戴 */
+  /* 手表的轮播图 */
+}
+.louti .phone {
+  width: 1200px;
+  height: 1279px;
+}
+.louti .phone .shang {
+  height: 32px;
+  margin-bottom: 12px;
+}
+.louti .phone .shang h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: normal;
+  float: left;
+}
+.louti .phone .shang ul {
+  margin-left: 28px;
+  float: left;
+}
+.louti .phone .shang ul li {
+  float: left;
+  line-height: 32px;
+}
+.louti .phone .shang ul li a {
+  font-size: 14px;
+  color: #999;
+  margin-left: 0;
+  margin-right: 24px;
+  line-height: 32px;
+}
+.louti .phone .shang ul li a:hover {
+  color: #cb242b;
+}
+.louti .phone .shang .more {
+  width: 93px;
+  height: 32px;
+  float: right;
+}
+.louti .phone .shang .more a {
+  display: block;
+  width: 83px;
+  height: 16px;
+  padding: 0 10px 0 14px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+}
+.louti .phone .shang .more a:hover {
+  color: #cb242b;
+}
+.louti .phone .shang .more a:hover:after {
+  background-position: -43px -57px;
+}
+.louti .phone .shang .more a:after {
+  content: "";
+  width: 10px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  background: url(../images/icon.png) no-repeat;
+  background-position: -27px -57px;
+  top: 2px;
+  margin-left: 3px;
+}
+.louti .phone .xia {
+  width: 1200px;
+  height: 1208px;
+}
+.louti .phone .xia ul li {
+  float: left;
+  width: 230px;
+  height: 290px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.louti .phone .xia ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.louti .phone .xia ul li a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.louti .phone .xia ul li a em {
+  width: 42px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 6px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.louti .phone .xia ul li a .hong {
+  background: #ff8486;
+}
+.louti .phone .xia ul li a .lan {
+  background: #68BEFF;
+}
+.louti .phone .xia ul li a .p1 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  color: #3a3a3a;
+  margin-top: 12px;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.louti .phone .xia ul li a .p2 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 400;
+}
+.louti .phone .xia ul li a .p3 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.louti .phone .xia ul li:nth-child(5n) {
+  margin-right: 0;
+}
+.louti .phone .xia ul .special {
+  width: 230px;
+  height: 290px;
+}
+.louti .noteBook {
+  width: 1200px;
+  height: 675px;
+  margin-top: 32px;
+}
+.louti .noteBook .shang {
+  height: 32px;
+  margin-bottom: 12px;
+}
+.louti .noteBook .shang h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: normal;
+  float: left;
+}
+.louti .noteBook .shang ul {
+  margin-left: 28px;
+  float: left;
+}
+.louti .noteBook .shang ul li {
+  float: left;
+  line-height: 32px;
+}
+.louti .noteBook .shang ul li a {
+  font-size: 14px;
+  color: #999;
+  margin-left: 0;
+  margin-right: 24px;
+  line-height: 32px;
+}
+.louti .noteBook .shang ul li a:hover {
+  color: #cb242b;
+}
+.louti .noteBook .shang .more {
+  width: 93px;
+  height: 32px;
+  float: right;
+}
+.louti .noteBook .shang .more a {
+  display: block;
+  width: 83px;
+  height: 16px;
+  padding: 0 10px 0 14px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+}
+.louti .noteBook .shang .more a:hover {
+  color: #cb242b;
+}
+.louti .noteBook .shang .more a:hover:after {
+  background-position: -43px -57px;
+}
+.louti .noteBook .shang .more a:after {
+  content: "";
+  width: 10px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  background: url(../images/icon.png) no-repeat;
+  background-position: -27px -57px;
+  top: 2px;
+  margin-left: 3px;
+}
+.louti .noteBook .xia {
+  width: 1200px;
+  height: 1208px;
+}
+.louti .noteBook .xia ul li {
+  float: left;
+  width: 230px;
+  height: 290px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.louti .noteBook .xia ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.louti .noteBook .xia ul li a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.louti .noteBook .xia ul li a em {
+  width: 42px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 6px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.louti .noteBook .xia ul li a .hong {
+  background: #ff8486;
+}
+.louti .noteBook .xia ul li a .lan {
+  background: #68BEFF;
+}
+.louti .noteBook .xia ul li a .p1 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  color: #3a3a3a;
+  margin-top: 12px;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.louti .noteBook .xia ul li a .p2 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 400;
+}
+.louti .noteBook .xia ul li a .p3 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.louti .noteBook .xia ul li:nth-child(5n) {
+  margin-right: 0;
+}
+.louti .noteBook .xia ul .special {
+  width: 230px;
+  height: 290px;
+  border-radius: 10px;
+}
+.louti .pad {
+  width: 1200px;
+  height: 675px;
+}
+.louti .pad .shang {
+  height: 32px;
+  margin-bottom: 12px;
+}
+.louti .pad .shang h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: normal;
+  float: left;
+}
+.louti .pad .shang ul {
+  margin-left: 28px;
+  float: left;
+}
+.louti .pad .shang ul li {
+  float: left;
+  line-height: 32px;
+}
+.louti .pad .shang ul li a {
+  font-size: 14px;
+  color: #999;
+  margin-left: 0;
+  margin-right: 24px;
+  line-height: 32px;
+}
+.louti .pad .shang ul li a:hover {
+  color: #cb242b;
+}
+.louti .pad .shang .more {
+  width: 93px;
+  height: 32px;
+  float: right;
+}
+.louti .pad .shang .more a {
+  display: block;
+  width: 83px;
+  height: 16px;
+  padding: 0 10px 0 14px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+}
+.louti .pad .shang .more a:hover {
+  color: #cb242b;
+}
+.louti .pad .shang .more a:hover:after {
+  background-position: -43px -57px;
+}
+.louti .pad .shang .more a:after {
+  content: "";
+  width: 10px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  background: url(../images/icon.png) no-repeat;
+  background-position: -27px -57px;
+  top: 2px;
+  margin-left: 3px;
+}
+.louti .pad .xia {
+  width: 1200px;
+  height: 1208px;
+}
+.louti .pad .xia ul li {
+  float: left;
+  width: 230px;
+  height: 290px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.louti .pad .xia ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.louti .pad .xia ul li a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.louti .pad .xia ul li a em {
+  width: 42px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 6px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.louti .pad .xia ul li a .hong {
+  background: #ff8486;
+}
+.louti .pad .xia ul li a .lan {
+  background: #68BEFF;
+}
+.louti .pad .xia ul li a .p1 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  color: #3a3a3a;
+  margin-top: 12px;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.louti .pad .xia ul li a .p2 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 400;
+}
+.louti .pad .xia ul li a .p3 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.louti .pad .xia ul li:nth-child(5n) {
+  margin-right: 0;
+}
+.louti .pad .xia ul .special {
+  width: 230px;
+  height: 290px;
+  border-radius: 10px;
+}
+.louti .cd {
+  width: 1200px;
+  height: 657px;
+}
+.louti .cd .shang {
+  height: 32px;
+  margin-bottom: 12px;
+}
+.louti .cd .shang h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: normal;
+  float: left;
+}
+.louti .cd .shang ul {
+  margin-left: 28px;
+  float: left;
+}
+.louti .cd .shang ul li {
+  float: left;
+  line-height: 32px;
+}
+.louti .cd .shang ul li a {
+  font-size: 14px;
+  color: #999;
+  margin-left: 0;
+  margin-right: 24px;
+  line-height: 32px;
+}
+.louti .cd .shang ul li a:hover {
+  color: #cb242b;
+}
+.louti .cd .shang .more {
+  width: 93px;
+  height: 32px;
+  float: right;
+}
+.louti .cd .shang .more a {
+  display: block;
+  width: 83px;
+  height: 16px;
+  padding: 0 10px 0 14px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+}
+.louti .cd .shang .more a:hover {
+  color: #cb242b;
+}
+.louti .cd .shang .more a:hover:after {
+  background-position: -43px -57px;
+}
+.louti .cd .shang .more a:after {
+  content: "";
+  width: 10px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  background: url(../images/icon.png) no-repeat;
+  background-position: -27px -57px;
+  top: 2px;
+  margin-left: 3px;
+}
+.louti .cd .xia {
+  width: 1200px;
+  height: 1208px;
+}
+.louti .cd .xia ul li {
+  float: left;
+  width: 230px;
+  height: 290px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+.louti .cd .xia ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.louti .cd .xia ul li a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.louti .cd .xia ul li a em {
+  width: 42px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 6px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.louti .cd .xia ul li a .hong {
+  background: #ff8486;
+}
+.louti .cd .xia ul li a .lan {
+  background: #68BEFF;
+}
+.louti .cd .xia ul li a .p1 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  color: #3a3a3a;
+  margin-top: 12px;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.louti .cd .xia ul li a .p2 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 400;
+}
+.louti .cd .xia ul li a .p3 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.louti .cd .xia ul .special {
+  width: 472px;
+  height: 290px;
+  border-radius: 10px;
+}
+.louti .cd .xia ul .none {
+  margin-right: 0px;
+}
+.louti .sb li {
+  float: left;
+  width: 190px;
+  height: 240px;
+  margin-right: 10px;
+}
+.louti .sb li a {
+  display: block;
+  width: 190px;
+  height: 190px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+.louti .sb li a img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.louti .sb li a em {
+  width: 42px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 6px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.louti .sb li a .p1 {
+  width: 190px;
+  height: 32px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  color: #777;
+  font-size: 12px;
+  background: #f3f3f3;
+  margin-top: 12px;
+  border-radius: 0 0 10px 10px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.louti .sb li .p2 {
+  color: #777;
+  line-height: 18px;
+  padding: 0 10px;
+  margin: 4px 20px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+}
+.louti .sb li .p3 {
+  color: #d0021b;
+  line-height: 21px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+}
+.louti .sb .none {
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=body.css.map */
